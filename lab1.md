@@ -3,7 +3,10 @@ Lab Report 1
 cd
 1. Typing cd by itself to go back to the start
 2. cd lecture1 directs you to lecture1
-![Image](Screenshot 2023-10-03 113703.png)
+~~~
+[user@sahara ~] cd lecture1
+[user@sahara ~/lecture1]
+~~~
 4. When trying to do cd fr.txt I get an error since I tried to change the directory into a txt file and a txt file is not a directory
 
 ls
