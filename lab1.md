@@ -12,11 +12,19 @@ cd
 ls
 1. ls with no arguments show me lecture1 since it is the only directory in the start
 2. ls with messages directory shows me en-us.txt, es-mx.txt, fr.txt, zh-cn.txt
-![Image](Screenshot 2023-10-03 113848.png)
+~~~
+[user@sahara ~/lecture1/messages]$ ls
+en-us.txt es-mx.txt fr.txt zh-cn.txt
+[user@sahara ~/lecture1/messages]$
+~~~
 4. ls to a txt file just points to the file itself since it's only a single file
 
 cat
 1. cat with no arguments keeps asking for input since there was no directory 
 2. cat with a path to directory shows if the path is a directory
-![Image](Screenshot 2023-10-03 113925.png)
+~~~
+[user@sahara ~/lecture1]$ cat messages
+cat: messages: Is a directory
+[user@sahara ~/lecture1]$
+~~~
 4. cat with a path to file shows the text in the file
