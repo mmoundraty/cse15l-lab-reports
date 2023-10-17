@@ -20,6 +20,11 @@ bash: cd: Hello.java: No such file or directory
 
 # ls
 1. Using '''ls''' with no arguments show me '''lecture1''' since it is the only directory in the start.
+~~~
+[user@sahara ~]$ ls
+lecture1
+[user@sahara ~]$
+~~~
 2. Using '''ls''' with to a directory to messages shows me '''en-us.txt, es-mx.txt, fr.txt, zh-cn.txt''' since all the files are in the messages directory.
 ~~~
 [user@sahara ~]$ /home/lecture1/messages
@@ -27,6 +32,9 @@ en-us.txt es-mx.txt fr.txt zh-cn.txt
 [user@sahara ~]
 ~~~
 3. Using '''ls''' to a txt file just points to the file itself since it's only a single file.
+~~~
+EDIT THIS
+~~~
 
 # cat
 1. Using '''cat''' with no arguments keeps asking for input since there was no directory.
