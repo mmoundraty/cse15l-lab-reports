@@ -1,7 +1,7 @@
 Lab Report 1
 
 # cd
-1. Using '''cd''' with no arguments directs back to the start of the terminal since there is no directory to reference to.
+1. Using ~~~cd~~~ with no arguments directs back to the start of the terminal since there is no directory to reference to.
 2. Using '''cd''' with a path directory such as '''lecture1''' changes directories to that path.
 ~~~
 [user@sahara ~]$ cd /home/lecture1
