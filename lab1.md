@@ -42,7 +42,6 @@ en-us.txt es-mx.txt fr.txt zh-cn.txt
 1. Using `cat` with no arguments keeps asking for input since there was no directory.
 ~~~
 [user@sahara ~/lecture1]$ cat
-
 ~~~   
 2. Using `cat` with a path to the directory verifies if the path is a valid directory.
 ~~~
