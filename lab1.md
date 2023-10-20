@@ -27,21 +27,32 @@ lecture1
 ~~~
 2. Using '''ls''' with to a directory to messages shows me '''en-us.txt, es-mx.txt, fr.txt, zh-cn.txt''' since all the files are in the messages directory.
 ~~~
-[user@sahara ~]$ /home/lecture1/messages
+[user@sahara ~]$ ls /home/lecture1/messages
 en-us.txt es-mx.txt fr.txt zh-cn.txt
 [user@sahara ~]
 ~~~
 3. Using '''ls''' to a txt file just points to the file itself since it's only a single file.
 ~~~
-EDIT THIS
+[user@sahara ~]$ ls /home/lecture1/messages/en-us.txt
+/home/lecture1/messages/en-us.txt
+[user@sahara ~]$
 ~~~
 
 # cat
 1. Using '''cat''' with no arguments keeps asking for input since there was no directory.
-2. Using '''cat''' with a path to directory verifies if the path is a valid directory.
+~~~
+[user@sahara ~/lecture1]$ cat
+
+~~~   
+2. Using '''cat''' with a path to the directory verifies if the path is a valid directory.
 ~~~
 [user@sahara ~/lecture1]$ cat /home/lecture1
 cat: messages: Is a directory
 [user@sahara ~/lecture1]$
 ~~~
-3. Using '''cat''' with a path to a file prints the contents in in the file.
+3. Using '''cat''' with a path to a file prints the contents in the file.
+~~~
+[user@sahara ~/lecture1]$ cat /home/lecture1/messages/en-us.txt
+Hello World!
+[user@sahara ~/lecture1]$
+~~~
