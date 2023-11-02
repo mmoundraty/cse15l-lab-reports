@@ -3,15 +3,14 @@
 ![Image](cse15lreport2code.png)
 ![Image](cse15lweb1.png)
 
-The method handleRequest is being called. The relevant arguments for handleRequest are `URI url` `getQuery()` `split()`.
+The method `handleRequest` is being called. The relevant arguments for handleRequest are `URI url` `getQuery()` `split()`.
 The values of the relevant fields of the class are "=" and "s". The value of `parameters[1]` changes each time the user
 enters a string in the query such as entering "Hello".
 
 ![Image](cse15lweb2.png)
 
-The method handleRequest is being called. The relevant arguments for handleRequest are `URI url` `getQuery()` `split()`.
-The values of the relevant fields of the class are "=" and "s". The value of `parameters[1]` changes each time the user
-enters a string and makes a new line for the input such as entering "World" and the website changes to the second line.
+The method handleRequest is being called. The relevant arguments for handleRequest are `URI url`.
+The values of the relevant fields of the class are `num`, `disNum`, and `messages`.
 
 ## Part 2
 
