@@ -23,7 +23,7 @@ which will output `2. World` with the old output `1. Hello`.
 
 This is the path to the private key.
 
-![Image](cse15lreport2ls3.png)
+![Image](cse15lreport2ls4.png)
 
 This is the path to the public key.
 
