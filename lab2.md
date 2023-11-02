@@ -3,9 +3,11 @@
 ![Image](cse15lreport2code.png)
 ![Image](cse15lweb1.png)
 
-The method `handleRequest` is being called. The relevant arguments for handleRequest are `URI url` `getQuery()` `split()`.
-The values of the relevant fields of the class are "=" and "s". The value of `parameters[1]` changes each time the user
-enters a string in the query such as entering "Hello".
+The method `handleRequest` is being called. The relevant arguments for handleRequest are `URI url`.
+The values of the relevant fields of the class are `num`, `disnum`, and `messages`. 
+The value `num` is incremented when there is an s inputted after the query.
+The value`disNum` parseInt's the  value `num` into a string so it can be displayed on the website.
+The value `messages` concatenates `num`, `disNum`, and the input of `parameters[1]` (which is the messages). 
 
 ![Image](cse15lweb2.png)
 
