@@ -21,11 +21,11 @@ which will output `2. World` with the old output `1. Hello`.
 
 ## Part 2
 
-This is the path to the private key which is authorized_keys.
+This is the path to the private key which is `id_rsa`
 
 ![Image](cse15lreport2ls4.png)
 
-This is the path to the public key which is known_hosts.
+This is the path to the public key which is `ir_rsa.pub`
 
 ![Image](cs15lreport2ls.png)
 
