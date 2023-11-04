@@ -17,6 +17,8 @@ public void testReverseInPlace() {
 	}
 ~~~
 
+![Image](15ljava1.png)
+
 ~~~
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -25,5 +27,17 @@ static void reverseInPlace(int[] arr) {
   }
 ~~~
 
-![Image](15ljava1.png)
+~~~
+static void reverseInPlace(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[i];
+    }
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+  }
+~~~
+
+The fix in the new code block addresses the issue that the array does not copy its changed elements. By creating a new array you can pick the elements that are unchanged in `newArray` into the original array without overlapping.
 
