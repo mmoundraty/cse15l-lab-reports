@@ -25,4 +25,5 @@ static void reverseInPlace(int[] arr) {
   }
 ~~~
 
+![Image](15ljava1.png)
 
