@@ -2,8 +2,8 @@
 
 ~~~
 @Test 
-	public void testReverseInPlace() {
-    int[] input1 = {5, 6, 7,8};
+public void testReverseInPlace() {
+    int[] input1 = {5, 6, 7, 8};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{8, 7, 6, 5}, input1);
 	}
@@ -11,7 +11,7 @@
 
 ~~~
 public void testReverseInPlace() {
-    int[] input1 = {5, 6, 7,8};
+    int[] input1 = {5, 6, 7, 8};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{8, 7, 7, 8}, input1);
 	}
@@ -24,3 +24,5 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ~~~
+
+
