@@ -41,3 +41,4 @@ static void reverseInPlace(int[] arr) {
 
 The fix in the new code block addresses the issue that the array does not copy its changed elements. By creating a new array you can pick the elements that are unchanged in `newArray` into the original array in reversed order without overlapping.
 
+## Part 2
