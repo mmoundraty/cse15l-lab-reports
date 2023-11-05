@@ -43,7 +43,7 @@ The fix in the new code block addresses the issue that the array does not copy i
 
 ## Part 2
 
-Command for grep -c
+Command for grep -c Example 1
 ~~~
 grep -c "911" grep-results.txt
 ~~~
@@ -53,7 +53,7 @@ Output
 17
 ~~~
 
-Command for grep -c
+Command for grep -c Example 2
 ~~~
 grep -c "003" plos-sizes.txt
 ~~~
@@ -63,7 +63,7 @@ Output
 29
 ~~~
 
-Command for grep -w
+Command for grep -w Example 1
 ~~~
 grep -w "pmed" biomed-sizes.txt
 ~~~
@@ -222,7 +222,7 @@ Output
      40     387    2851 technical/plos/pmed.0020281.txt
 ~~~
 
-Command for grep -w
+Command for grep -w Example 2
 ~~~
 grep -w "chapter-3" find-results.txt
 ~~~
@@ -232,7 +232,7 @@ Output
 technical/911report/chapter-3.txt
 ~~~
 
-Command for grep -i
+Command for grep -i Example 1
 ~~~
 grep -i "CHAPTER" find-results.txt
 ~~~
@@ -257,7 +257,7 @@ technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
 ~~~
 
-Command for grep -i
+Command for grep -i Example 2
 ~~~
 grep -i "aBoUt" grep-results.txt
 ~~~
@@ -283,7 +283,7 @@ technical/government/About_LSC/State_Planning_Special_Report.txt
 technical/government/About_LSC/Strategic_report.txt
 ~~~
 
-Command for grep -o
+Command for grep -o Example 1
 ~~~
 grep -o "Alcohol" grep-results.txt
 ~~~
@@ -296,7 +296,7 @@ Alcohol
 Alcohol
 ~~~
 
-Command for grep -o
+Command for grep -o Example 2
 ~~~
 grep -o "rr" find-results.txt
 ~~~
