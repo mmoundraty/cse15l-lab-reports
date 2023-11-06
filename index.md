@@ -4,4 +4,4 @@ Hello, Chat!
 
 [Lab Report 2](https://mmoundraty.github.io/cse15l-lab-reports/lab2.html)
 
-[Lab Report 3](
+[Lab Report 3](https://mmoundraty.github.io/cse15l-lab-reports/lab3.html)
