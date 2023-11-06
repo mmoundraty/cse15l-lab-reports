@@ -53,6 +53,10 @@ Output
 17
 ~~~
 
+Explanation: By typing `grep -c "911" grep-results.txt` the terminal outputs the number of lines of the file that contains "911" which is 17 lines.
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
 Command for grep -c Example 2
 ~~~
 grep -c "003" plos-sizes.txt
@@ -62,6 +66,10 @@ Output
 ~~~
 29
 ~~~
+
+Explanation: By typing `grep -c "003" grep-results.txt` the terminal outputs the number of lines of the file that contains "003" which is 29 lines.
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 Command for grep -w Example 1
 ~~~
@@ -222,6 +230,10 @@ Output
      40     387    2851 technical/plos/pmed.0020281.txt
 ~~~
 
+Explanation: By typing `grep -w "pmed" biomed-sizes.txt` the terminal outputs the line, words, and characters along with the path to the file that contains the full word "pmed". Another thing is if you were to put a partial word such as just "med" the terminal would not find anything that matches since its not the full word "pmed".
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
 Command for grep -w Example 2
 ~~~
 grep -w "chapter-3" find-results.txt
@@ -231,6 +243,10 @@ Output
 ~~~
 technical/911report/chapter-3.txt
 ~~~
+
+Explanation: By typing `grep -w "chapter-3" find-results.txt` the terminal outputs the line, words, and characters along with the path to the file that contains the full word "chapter-3". The file searched only has one line that has the full word "chapter-3". 
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 Command for grep -i Example 1
 ~~~
@@ -256,6 +272,10 @@ technical/911report/chapter-7.txt
 technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
 ~~~
+
+Explanation: By typing `grep -i "CHAPTER" find-results.txt` the argument `-i` does not care about capitalization and will output the path to the file that has the word "chapter".
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 Command for grep -i Example 2
 ~~~
@@ -283,6 +303,10 @@ technical/government/About_LSC/State_Planning_Special_Report.txt
 technical/government/About_LSC/Strategic_report.txt
 ~~~
 
+Explanation: By typing `grep -i "aBoUt" grep-results.txt` the argument `-i` does not care about capitalization and will output the path to the file that has the word "about".
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
 Command for grep -o Example 1
 ~~~
 grep -o "Alcohol" grep-results.txt
@@ -295,6 +319,10 @@ Alcohol
 Alcohol
 Alcohol
 ~~~
+
+Explanation: By typing `grep -o "Alcohol" grep-results.txt` the argument `-o` only outputs the word in each that is being searched in the file that contains "Alcohol".
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 Command for grep -o Example 2
 ~~~
@@ -315,3 +343,7 @@ rr
 rr
 rr
 ~~~
+
+Explanation: By typing `grep -o "rr" find-results.txt` the argument `-o` only outputs the word in each that is being searched in the file that contains "rr".
+
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
