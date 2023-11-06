@@ -23,11 +23,11 @@ which will output `2. World` with the old output `1. Hello`.
 
 This is the path to the private key which is `id_rsa`
 
-![Image](cse15lreport2ls4.png)
+![Image](reportprivkey.png)
 
 This is the path to the public key which is `ir_rsa.pub`
 
-![Image](cs15lreport2ls.png)
+![Image](reportpubkey.png)
 
 This is the terminal interaction of logging into ieng6 without a password being asked.
 
