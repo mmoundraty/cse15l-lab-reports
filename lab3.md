@@ -21,7 +21,9 @@ public void testReverseInPlace() {
 	}
 ~~~
 
-![Image](15ljava1.png)
+The symptom of the output:
+
+![Image](15ljava1again.png)
 
 The broken code:
 
