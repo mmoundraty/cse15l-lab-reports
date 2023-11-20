@@ -1,5 +1,7 @@
 ## Part 1
 
+A failure-inducing input for the buggy program:
+
 ~~~
 @Test 
 public void testReverseInPlace() {
@@ -8,6 +10,8 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{8, 7, 6, 5}, input1);
 	}
 ~~~
+
+An input that doesn’t induce a failure:
 
 ~~~
 public void testReverseInPlace() {
