@@ -23,6 +23,8 @@ public void testReverseInPlace() {
 
 ![Image](15ljava1.png)
 
+The broken code:
+
 ~~~
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -30,6 +32,8 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ~~~
+
+The fixed code:
 
 ~~~
 static void reverseInPlace(int[] arr) {
