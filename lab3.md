@@ -21,7 +21,7 @@ public void testReverseInPlace() {
 	}
 ~~~
 
-The symptom of the output:
+The output of running the tests:
 
 ![Image](15ljava1again.png)
 
@@ -63,7 +63,7 @@ Output
 17
 ~~~
 
-Explanation: By typing `grep -c "911" grep-results.txt` the terminal outputs the number of lines of the file that contains "911" which is 17 lines.
+Explanation: By typing `grep -c "911" grep-results.txt` the terminal outputs the number of lines of the file that contains "911" which is 17 lines. The grep -c command is useful since I can know how many files have the element im looking for which is "911".
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
@@ -77,7 +77,7 @@ Output
 29
 ~~~
 
-Explanation: By typing `grep -c "003" grep-results.txt` the terminal outputs the number of lines of the file that contains "003" which is 29 lines.
+Explanation: By typing `grep -c "003" grep-results.txt` the terminal outputs the number of lines of the file that contains "003" which is 29 lines. The grep -c command is useful since I can know how many files have the element im looking for which is "003".
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
@@ -240,7 +240,7 @@ Output
      40     387    2851 technical/plos/pmed.0020281.txt
 ~~~
 
-Explanation: By typing `grep -w "pmed" biomed-sizes.txt` the terminal outputs the line, words, and characters along with the path to the file that contains the full word "pmed". Another thing is if you were to put a partial word such as just "med" the terminal would not find anything that matches since its not the full word "pmed".
+Explanation: By typing `grep -w "pmed" biomed-sizes.txt` the terminal outputs the line, words, and characters along with the path to the file that contains the full word "pmed". Another thing is if you were to put a partial word such as just "med" the terminal would not find anything that matches since its not the full word "pmed". The grep -w command is useful since I would want to know the files that have part of a name that I searched for which was "pmed".
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
@@ -254,7 +254,7 @@ Output
 technical/911report/chapter-3.txt
 ~~~
 
-Explanation: By typing `grep -w "chapter-3" find-results.txt` the terminal outputs the line, words, and characters along with the path to the file that contains the full word "chapter-3". The file searched only has one line that has the full word "chapter-3". 
+Explanation: By typing `grep -w "chapter-3" find-results.txt` the terminal outputs the line, words, and characters along with the path to the file that contains the full word "chapter-3". The file searched only has one line that has the full word "chapter-3". The grep -w command is useful since I would want to know the files that have part of a name that I searched for which was "chapter-3".
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
@@ -283,7 +283,7 @@ technical/911report/chapter-8.txt
 technical/911report/chapter-9.txt
 ~~~
 
-Explanation: By typing `grep -i "CHAPTER" find-results.txt` the argument `-i` does not care about capitalization and will output the path to the file that has the word "chapter".
+Explanation: By typing `grep -i "CHAPTER" find-results.txt` the argument `-i` does not care about capitalization and will output the path to the file that has the word "chapter". The grep -i command is useful since I don't have to type specifically of what I want to search which was "chapter".
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
@@ -313,7 +313,7 @@ technical/government/About_LSC/State_Planning_Special_Report.txt
 technical/government/About_LSC/Strategic_report.txt
 ~~~
 
-Explanation: By typing `grep -i "aBoUt" grep-results.txt` the argument `-i` does not care about capitalization and will output the path to the file that has the word "about".
+Explanation: By typing `grep -i "aBoUt" grep-results.txt` the argument `-i` does not care about capitalization and will output the path to the file that has the word "about". The grep -i command is useful since I don't have to type specifically of what I want to search which was "about".
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
@@ -330,7 +330,7 @@ Alcohol
 Alcohol
 ~~~
 
-Explanation: By typing `grep -o "Alcohol" grep-results.txt` the argument `-o` only outputs the word in each that is being searched in the file that contains "Alcohol".
+Explanation: By typing `grep -o "Alcohol" grep-results.txt` the argument `-o` only outputs the word in each that is being searched in the file that contains "Alcohol". The grep -o command is useful since I can see how many words are in a file that I searched for which was the word "Alcohol" in grep-results.txt.
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
@@ -354,6 +354,6 @@ rr
 rr
 ~~~
 
-Explanation: By typing `grep -o "rr" find-results.txt` the argument `-o` only outputs the word in each that is being searched in the file that contains "rr".
+Explanation: By typing `grep -o "rr" find-results.txt` the argument `-o` only outputs the word in each that is being searched in the file that contains "rr". The grep -o command is useful since I can see how many words are in a file that I searched for which was the word "rr" in find-results.txt.
 
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
