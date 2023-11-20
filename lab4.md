@@ -39,3 +39,7 @@ type `git add ListExamples.java`
 type `git commit -m "updated"`
 
 ![Image](lab4pic8.png)
+
+type `git push` to finish it off
+
+![Image}
