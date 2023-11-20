@@ -1,31 +1,25 @@
 ## Lab 4
 
-type ssh cs15lfa23nu@ieng6.ucsd.edu
+ssh to your ieng 6 account. Like this: `ssh cs15lfa23nu@ieng6.ucsd.edu`
 
-type git clone git@github.com:mmoundraty/lab7.git
+type git clone and paste your ssh key of your forked lab7. Like this: `git clone git@github.com:mmoundraty/lab7.git`
 
-type <cd lab7>
+type `cd lab7`
+type `bash.sh`
 
-type <bash.sh>
+type `/change`
+press `<enter>`
+press `<j><l><l><l>`
 
-type </change>
+press `<i>`
+press `<backspace>`
+type `<2>`
 
-press <enter>
+press the `<esc>` 
+type `:wq`
+press `<enter>`
 
-press <j><l><l><l>
+press `<up><up><up><enter>` to save time typing bash test.sh
 
-press <i>
-
-press <backspace>
-
-type <2>
-
-press the <esc> key
-
-type <:wq>
-
-press <up><up><up><enter>
-
-type <git add ListExamples.java>
-
-type <git commit -m "updated">
+type `git add ListExamples.java`
+type `git commit -m "updated"`
