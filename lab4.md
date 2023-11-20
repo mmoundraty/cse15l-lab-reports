@@ -42,4 +42,4 @@ type `git commit -m "updated"`
 
 type `git push` to finish it off
 
-![Image}
+![Image](lab4pic9.png)
