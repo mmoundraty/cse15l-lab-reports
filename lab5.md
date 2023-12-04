@@ -1,3 +1,13 @@
+## Part 1
+
+Student: Hello, I'm doing the code for the handleRequest method for the Lab Report 2 writeup and when I'm running the StringServer I only get one line of output instead of multiple lines do you know how I can fix this? Here is my code and the output it's giving:
+
+(insert image)
+
+TA: Hi, make sure for the variable that you are returning, you are adding your variable with previous messages instead of overwriting it.
+
+Student: Alright I will try that.
+
 
 
 ## Part 2
