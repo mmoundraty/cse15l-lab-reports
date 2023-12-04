@@ -24,8 +24,13 @@ Here is the file directory & structure that I need which is just Server.java, ru
 
 Here are the contents of each file before fixing the bug.
 
+Bash file:
 ![Image](1lab.png)
+
+StringServer Java file:
 ![Image](3lab.png)
+
+Server Java file:
 ![Image](9lab.png)
 
 The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` this triggers the bug since putting in multiple inputs the 
