@@ -12,6 +12,10 @@ Student: Alright I will try that.
 
 ![Image](2lab.png)
 
+Student: I see that for my message variable that I needed to do += instead of just = to my data that I am displaying.
+
+
+
 ## Part 2
 
 In the second half of the quarter I was able to learn bash, jdb, and vim to efficiently debug my code.
