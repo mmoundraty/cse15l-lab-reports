@@ -26,6 +26,7 @@ Here are the contents of each file before fixing the bug.
 
 ![Image](1lab.png)
 ![Image](3lab.png)
+![Image](9lab.png)
 
 The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` this triggers the bug since putting in multiple inputs the 
 
