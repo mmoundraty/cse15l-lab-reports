@@ -6,11 +6,12 @@ Student: Hello, I'm doing the code for the handleRequest method for the Lab Repo
 ![Image](3lab.png)
 ![Image](4lab.png)
 
-TA: Think about how strings work and how it connects to reloading your page on the web server. When entering data in your query make sure that you are not overwriting previous data.
+TA: Think about how strings work and how it connects to reloading your page on the web server. When entering data in your query think about why your previous inputs are being overwritten.
 
 Student: Alright I will try that. I see that for my message variable that I needed to do += instead of just = to my data that I am displaying.
 
 ![Image](2lab.png)
+![Image](6lab.png)
 
 [Information needed about the setup]
 
