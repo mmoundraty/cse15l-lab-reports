@@ -14,7 +14,19 @@ Student: Alright I will try that.
 
 Student: I see that for my message variable that I needed to do += instead of just = to my data that I am displaying.
 
+Here is the file directory & structure that I need which is just Server.java, run.sh, and StringServer.java
 
+![Image](5lab.png)
+
+Here are the contents of the StringServer.java before fixing the bug (the message variable should have += instead of just =)
+
+![Image](3lab.png)
+
+The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` 
+
+To fix the bug add += for my message variable
+
+![Image](2lab.png)
 
 ## Part 2
 
