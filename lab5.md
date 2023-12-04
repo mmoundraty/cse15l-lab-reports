@@ -21,13 +21,13 @@ Here is the file directory & structure that I need which is just Server.java, ru
 
 Here are the contents of the StringServer.java before fixing the bug (the message variable should have += instead of just =)
 
-![Image](3lab.png)
+![Image](7lab.png)
 
 The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` 
 
 To fix the bug add += for my message variable
 
-![Image](2lab.png)
+![Image](8lab.png)
 
 ## Part 2
 
