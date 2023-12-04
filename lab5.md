@@ -33,9 +33,9 @@ StringServer Java file:
 Server Java file:
 ![Image](9lab.png)
 
-The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` this triggers the bug since putting in multiple inputs the 
+The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` or putting more than one input in the query that triggers the bug.
 
-To fix the bug add += for my message variable
+To fix the bug add `+=` for the `message` variable so that you include previous query input instead of overwriting it.
 
 ![Image](8lab.png)
 
