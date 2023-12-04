@@ -6,13 +6,13 @@ Student: Hello, I'm doing the code for the handleRequest method for the Lab Repo
 ![Image](3lab.png)
 ![Image](4lab.png)
 
-TA: Hi, make sure for the variable that you are returning, you are adding your variable with previous messages instead of overwriting it.
+TA: Think about how strings work and how it connects to reloading your page on the web server. When entering data in your query make sure that you are not overwriting previous data.
 
-Student: Alright I will try that.
+Student: Alright I will try that. I see that for my message variable that I needed to do += instead of just = to my data that I am displaying.
 
 ![Image](2lab.png)
 
-Student: I see that for my message variable that I needed to do += instead of just = to my data that I am displaying.
+[Information needed about the setup]
 
 Here is the file directory & structure that I need which is just Server.java, run.sh, and StringServer.java
 
@@ -30,7 +30,11 @@ To fix the bug add += for my message variable
 
 ## Part 2
 
-In the second half of the quarter I was able to learn bash, jdb, and vim to efficiently debug my code.
+In the second half of the quarter what I thought was really interesting thing to learn
+was vim. Learning vim, I learned that I can edit my code just from my terminal and that an
+IDE is not the only thing that I can use to edit code with.
+
+learn bash, jdb, and vim to efficiently debug my code.
 I learned how to use bash to report errors in my code and used bash to report how to fix my code.
 I also learned to efficiently debug my java code using jdb such as using the "stop at" command to find a breakpoint in my code where the errors are showing. 
 What I thought was really cool was that I learned that I don't even need an IDE or even Notepad to edit my files, 
