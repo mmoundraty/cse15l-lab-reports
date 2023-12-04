@@ -35,7 +35,7 @@ Server Java file:
 
 The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` or putting more than one input in the query that triggers the bug.
 
-To fix the bug add `+=` for the `message` variable so that you add previous query input instead of overwriting it.
+To fix the bug add `+=` for the `message` variable. By adding that to the variable you add the previous query inputs to the message inputs which will create new lines in the output of the web server instead of overwriting the previous inputs.
 
 ![Image](8lab.png)
 
