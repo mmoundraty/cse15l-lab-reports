@@ -8,9 +8,12 @@ Student: Hello, I'm doing the code for the handleRequest method for the Lab Repo
 
 TA: Think about how strings work and how it connects to reloading your page on the web server. When entering data in your query think about why your previous inputs are being overwritten.
 
-Student: Alright I will try that. I see that for my message variable that I needed to do += instead of just = to my data that I am displaying.
+Student: Alright I will try that. I see that for my message variable that I needed to do `+=` instead of just `=` to my data that I am displaying since doing `=` only will overwrite the previous query inputs and shows why I'm not having new line of output in my web server.
 
+Here is the fixed code:
 ![Image](2lab.png)
+
+Here is the fixed output now:
 ![Image](6lab.png)
 
 [Information needed about the setup]
@@ -19,11 +22,11 @@ Here is the file directory & structure that I need which is just Server.java, ru
 
 ![Image](5lab.png)
 
-Here are the contents of the StringServer.java before fixing the bug
+Here are the contents of the StringServer.java before fixing the bug. The equal sign for the message variable caused a bug since 
 
-![Image](7lab.png)
+![Image](3lab.png)
 
-The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` 
+The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` this triggers the bug since putting in multiple inputs the 
 
 To fix the bug add += for my message variable
 
@@ -33,12 +36,6 @@ To fix the bug add += for my message variable
 
 In the second half of the quarter what I thought was really interesting thing to learn
 was vim. Learning vim, I learned that I can edit my code just from my terminal and that an
-IDE is not the only thing that I can use to edit code with.
-
-learn bash, jdb, and vim to efficiently debug my code.
-I learned how to use bash to report errors in my code and used bash to report how to fix my code.
-I also learned to efficiently debug my java code using jdb such as using the "stop at" command to find a breakpoint in my code where the errors are showing. 
-What I thought was really cool was that I learned that I don't even need an IDE or even Notepad to edit my files, 
-I can just edit files from my terminal with git commands and using vim.
-I learned git commands to save my changes with just the command lines with git add and git commit instead of going to the github to save my changes.
-I also learned how to apply jdb, vim, and git in lab for my ChatServer lab project.
+IDE is not the only thing that I can use to edit code with. I thought applying vim to my
+skill demo was cool since I could access files quickly from the command line and edit
+from there instead of going online in github and having to fork the files to my VS code.
