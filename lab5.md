@@ -1,6 +1,6 @@
 ## Part 1
 
-Student: Hello, I'm doing the code for the handleRequest method for the Lab Report 2 writeup and when I'm running the StringServer I only get one line of output instead of multiple lines do you know how I can fix this? Here is my code and the output it's giving:
+Student: Hello, I'm doing the code for the `handleRequest` method for the Lab Report 2 writeup and when I'm running the StringServer I only get one line of output instead of multiple lines do you know how I can fix this? Here is my code and the output it's giving:
 
 ![Image](1lab.png)
 ![Image](3lab.png)
@@ -18,7 +18,7 @@ Here is the fixed output now:
 
 [Information needed about the setup]
 
-Here is the file directory & structure that I need which is just Server.java, run.sh, and StringServer.java
+Here is the file directory & structure that I need which is just `Server.java`, `run.sh`, and `StringServer.java`
 
 ![Image](5lab.png)
 
