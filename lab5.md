@@ -8,7 +8,7 @@ Student: Hello, I'm doing the code for the handleRequest method for the Lab Repo
 
 TA: Think about how strings work and how it connects to reloading your page on the web server. When entering data in your query think about why your previous inputs are being overwritten.
 
-Student: Alright I will try that. I see that for my message variable that I needed to do `+=` instead of just `=` to my data that I am displaying since doing `=` only will overwrite the previous query inputs and shows why I'm not having new line of output in my web server.
+Student: Alright I will try that. I see that for my `message` variable that I needed to do `+=` instead of just `=` to my data that I am displaying since doing `=` only will overwrite the previous query inputs and shows why I'm not having new line of output in my web server.
 
 Here is the fixed code:
 ![Image](2lab.png)
@@ -22,8 +22,9 @@ Here is the file directory & structure that I need which is just Server.java, ru
 
 ![Image](5lab.png)
 
-Here are the contents of the StringServer.java before fixing the bug. The equal sign for the message variable caused a bug since 
+Here are the contents of each file before fixing the bug.
 
+![Image](1lab.png)
 ![Image](3lab.png)
 
 The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` this triggers the bug since putting in multiple inputs the 
