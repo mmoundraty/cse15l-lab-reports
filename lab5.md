@@ -19,7 +19,7 @@ Here is the file directory & structure that I need which is just Server.java, ru
 
 ![Image](5lab.png)
 
-Here are the contents of the StringServer.java before fixing the bug (the message variable should have += instead of just =)
+Here are the contents of the StringServer.java before fixing the bug
 
 ![Image](7lab.png)
 
