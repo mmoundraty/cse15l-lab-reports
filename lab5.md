@@ -9,7 +9,7 @@ Here is my buggy output:
 
 TA: Consider your string variables and trace line by line of what you are missing are needing to add. When entering data in your query think about why your previous inputs are being overwritten.
 
-Student: Alright I will try that. I see that for my `message` variable that I needed to add data to my string instead of just `=` to my data that I am displaying since doing `=` only will overwrite the previous query inputs and shows why I'm not having new line of output in my web server.
+Student: I have tried what you said and I see that for my `message` variable that I needed to add data to my string instead of just `=` to my data that I am displaying since doing `=` only will overwrite the previous query inputs and shows why I'm not having new line of output in my web server.
 
 Here is the fixed code:
 ![Image](2lab.png)
@@ -42,8 +42,10 @@ To fix the bug add `+=` for the `message` variable. By adding that to the variab
 
 ## Part 2
 
-In the second half of the quarter what I thought was really interesting to learn
-was using vim to edit my files. Learning vim, I learned that I can edit my code just from my terminal and that an
-IDE is not the only thing that I can use to edit code with. I thought applying vim to my
-skill demo was cool since I could access files quickly from the command line and edit
-from there instead of going online in github and having to fork the files to my VS code.
+In the second half of the quarter what I thought was really interesting to learn that I did not know before
+was using vim commands to edit my files. What blew my mind earning vim, I learned that 
+I can edit my code just from my terminal and that an IDE is not the only thing that 
+I can use to edit code with. I also learned convenient vim commands from vimtutor such as `/` for variables that I am looking for and commands to delete text like `d2w` to delete 2 words, `dd` to delete a line, and `2dd` to delete 2 lines.
+I thought applying vim commands such as myskill demo was cool since I could 
+access files quickly from the command line and edit from there instead of going online in github 
+and having to fork the files to my VS code.
