@@ -4,6 +4,7 @@ Student: Hello, I'm doing the code for the `handleRequest` method for the Lab Re
 
 ![Image](1lab.png)
 ![Image](3lab.png)
+Here is my buggy output:
 ![Image](4lab.png)
 
 TA: Consider your string variables, when entering data in your query think about why your previous inputs are being overwritten.
@@ -35,7 +36,7 @@ Server Java file:
 
 The command line I triggered the bug was `http://localhost:4000/add-message?s=Hello`, `http://localhost:4000/add-message?s=World`, and `http://localhost:4000/add-message?s=Song Birds` or putting more than one input in the query that triggers the bug.
 
-To fix the bug add `+=` for the `message` variable. By adding that to the variable you add the previous query inputs to the message inputs which will create new lines in the output of the web server instead of overwriting the previous inputs.
+To fix the bug add `+=` for the `message` variable. By adding that to the variable you add the previous query inputs to the message inputs which will create new lines in the output of the web server instead of overwriting the previous inputs:
 
 ![Image](8lab.png)
 
