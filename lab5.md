@@ -2,7 +2,9 @@
 
 Student: Hello, I'm doing the code for the `handleRequest` method for the Lab Report 2 writeup and when I'm running the StringServer I only get one line of output instead of multiple lines. I think it might have to do with my variables in the handleRequest method when adding new input. Here is my code and the output it's giving:
 
+Java code:
 ![Image](1lab.png)
+Bash script:
 ![Image](3lab.png)
 Here is my buggy output:
 ![Image](4lab.png)
