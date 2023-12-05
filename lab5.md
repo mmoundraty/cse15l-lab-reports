@@ -7,9 +7,9 @@ Student: Hello, I'm doing the code for the `handleRequest` method for the Lab Re
 Here is my buggy output:
 ![Image](4lab.png)
 
-TA: Consider your string variables, when entering data in your query think about why your previous inputs are being overwritten.
+TA: Consider your string variables and trace line by line of what you are missing are needing to add. When entering data in your query think about why your previous inputs are being overwritten.
 
-Student: Alright I will try that. I see that for my `message` variable that I needed to do `+=` instead of just `=` to my data that I am displaying since doing `=` only will overwrite the previous query inputs and shows why I'm not having new line of output in my web server.
+Student: Alright I will try that. I see that for my `message` variable that I needed to add data to my string instead of just `=` to my data that I am displaying since doing `=` only will overwrite the previous query inputs and shows why I'm not having new line of output in my web server.
 
 Here is the fixed code:
 ![Image](2lab.png)
